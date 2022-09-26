@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intro_activity_nav_graph"
+    app:startDestination="@id/introProfileFragment">
+
+    <fragment
+        android:id="@+id/introPageingFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.IntoFragments.IntroPageingFragment"
+        android:label="fragment_intro_pageing"
+        tools:layout="@layout/fragment_intro_pageing" >
+        <action
+            android:id="@+id/action_introPageingFragment_to_appMainActivity"
+            app:destination="@id/appMainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/introProfileFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.IntoFragments.IntroProfileFragment"
+        android:label="fragment_intro_profile"
+        tools:layout="@layout/fragment_intro_profile" />
+    <activity
+        android:id="@+id/appMainActivity"
+        android:name="com.example.computerscincegroupsproject.Activity.AppMainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

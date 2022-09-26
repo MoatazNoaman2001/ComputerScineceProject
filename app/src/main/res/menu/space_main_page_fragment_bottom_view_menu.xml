@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/postsListFragment"
+        android:title="Posts"
+        android:icon="@drawable/ic_posts"/>
+    <item android:id="@+id/archiveFragment"
+        android:icon="@drawable/ic_archive"
+        android:title="archive"/>
+    <item android:id="@+id/gradeFragment"
+        android:icon="@drawable/ic_quiz"
+        android:title="Grads"/>
+</menu>

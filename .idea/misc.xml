@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/app_bar_half_rounded.xml" value="0.163" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/bottom_nav_view_rounded_backgroud.xml" value="0.163" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/ic_archive.xml" value="0.174" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/ic_face_4.xml" value="0.163" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/post_content_back_ground.xml" value="0.163" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/drawable/tab_state_selected.xml" value="0.163" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/activity_intro.xml" value="0.264" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/activity_sign_inactivity.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/content_main.xml" value="0.536" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_dash_board.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_grade.xml" value="0.33359375" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_intro_pageing.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_intro_profile.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_posts_list.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_second.xml" value="0.264" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_space_main_page.xml" value="0.4583333333333333" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_spaces_list.xml" value="0.22727272727272727" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/fragment_student_questions.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/frgament_join_space.xml" value="0.264" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/simple_post_item.xml" value="0.152" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/space_item.xml" value="0.2" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/layout/start_fragment.xml" value="0.176" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/menu/intro_activity_menu.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Mo3taz kayad/AndroidStudioProjects/ComputerScinceGroupsProject/app/src/main/res/menu/space_main_page_fragment_bottom_view_menu.xml" value="0.2390625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/spacesList">
+
+    <fragment
+        android:id="@+id/SpaceMainPageFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.JoinArea.SpaceMainPageFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_space_main_page">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/JoinSpaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/JoinSpaceFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.JoinArea.JoinSpacesFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/frgament_join_space">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/SpaceMainPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spacesList"
+        android:name="com.example.computerscincegroupsproject.Fragments.JoinArea.SpacesList"
+        android:label="fragment_spaces_list"
+        tools:layout="@layout/fragment_spaces_list" >
+        <action
+            android:id="@+id/action_spacesList_to_SpaceMainPageFragment"
+            app:destination="@id/SpaceMainPageFragment" />
+        <action
+            android:id="@+id/action_spacesList_to_JoinSpaceFragment"
+            app:destination="@id/JoinSpaceFragment"
+            app:enterAnim="@anim/down_right_enter_anim"
+            app:popExitAnim="@anim/down_right_exit_anim" />
+    </fragment>
+</navigation>

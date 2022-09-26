@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "142244283975",
+    "project_id": "bio-society",
+    "storage_bucket": "bio-society.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142244283975:android:e412d64957d2930316d362",
+        "android_client_info": {
+          "package_name": "com.example.computerscincegroupsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142244283975-g5qa6fmm4pjado0ncoic3hkp0maedm5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.computerscincegroupsproject",
+            "certificate_hash": "6f2417845be7e51495c7401c6bc9700cdb619a96"
+          }
+        },
+        {
+          "client_id": "142244283975-kk7bshi5vk01vkooc4m96el1fuai7a8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByEIT7p3aH1xwPdU46i5zFZX6bjq11-JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142244283975-kk7bshi5vk01vkooc4m96el1fuai7a8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

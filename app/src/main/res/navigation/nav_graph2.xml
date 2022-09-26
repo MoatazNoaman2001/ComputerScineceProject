@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/StartFragment">
+
+    <fragment
+        android:id="@+id/StartFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.SignIn.StartFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/start_fragment">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SignInFragment" />
+        <action
+            android:id="@+id/action_StartFragment_to_pagingFragment"
+            app:destination="@id/pagingFragment" />
+        <action
+            android:id="@+id/action_StartFragment_to_mainActivity"
+            app:destination="@id/IntoActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/SignInFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.SignIn.FragmentSignIn"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/StartFragment" />
+        <action
+            android:id="@+id/action_SignInFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_SignInFragment_to_mainActivity"
+            app:destination="@id/IntoActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/pagingFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.SignIn.PagingFragment"
+        android:label="fragment_paging"
+        tools:layout="@layout/fragment_paging" >
+        <action
+            android:id="@+id/action_pagingFragment_to_SignInFragment"
+            app:destination="@id/SignInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.SignIn.CreateAccountFragment"
+        android:label="fragment_create_account"
+        tools:layout="@layout/fragment_create_account" >
+        <action
+            android:id="@+id/action_createAccountFragment_to_mainActivity"
+            app:destination="@id/IntoActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/IntoActivity"
+        android:name="com.example.computerscincegroupsproject.Activity.IntroActivity"
+        android:label="IntoActivity"
+        tools:layout="@layout/activity_intro" />
+</navigation>
