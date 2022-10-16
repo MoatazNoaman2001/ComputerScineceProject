@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.MaterialComponents.Headline4.ToolBarTitle" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        <item name="titleTextColor">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+    </style>
+
+</resources>

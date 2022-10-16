@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newsFragment"
+        android:title="News"
+        android:icon="@drawable/ic_baseline_newspaper_24"/>
+    <item android:id="@+id/eventFragment"
+        android:title="Events"
+        android:icon="@drawable/ic_baseline_event_note_24"/>
+    <item android:id="@+id/contestsFragment"
+        android:title="Contests"
+        android:icon="@drawable/ic_baseline_newspaper_24"/>
+    <item android:id="@+id/subTableFragments"
+        android:title="Spaces"
+        android:icon="@drawable/ic_baseline_grid_on_24"/>
+    <item android:id="@+id/spacesList"
+        android:title="Spaces"
+        android:icon="@drawable/ic_baseline_groups_24"/>
+</menu>

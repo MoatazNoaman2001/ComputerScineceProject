@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/spacesList">
+    app:startDestination="@id/newsFragment">
 
     <fragment
         android:id="@+id/SpaceMainPageFragment"
@@ -28,8 +28,8 @@
     <fragment
         android:id="@+id/spacesList"
         android:name="com.example.computerscincegroupsproject.Fragments.JoinArea.SpacesList"
-        android:label="fragment_spaces_list"
-        tools:layout="@layout/fragment_spaces_list" >
+        android:label="spaces"
+        tools:layout="@layout/fragment_spaces_list">
         <action
             android:id="@+id/action_spacesList_to_SpaceMainPageFragment"
             app:destination="@id/SpaceMainPageFragment" />
@@ -39,4 +39,37 @@
             app:enterAnim="@anim/down_right_enter_anim"
             app:popExitAnim="@anim/down_right_exit_anim" />
     </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.MainFragments.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_newsFragment_to_newsDetailsFrgament"
+            app:destination="@id/newsDetailsFrgament" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.MainFragments.EventFragment"
+        android:label="events"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/contestsFragment"
+        android:name="com.example.computerscincegroupsproject.Fragments.MainFragments.ContestsFragment"
+        android:label="Contests"
+        tools:layout="@layout/fragment_contests">
+        <action
+            android:id="@+id/action_contestsFragment_to_newsDetailsFrgament"
+            app:destination="@id/newsDetailsFrgament" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailsFrgament"
+        android:name="com.example.computerscincegroupsproject.Fragments.MainFragments.NewsDetailsFrgament"
+        android:label="fragment_news_details_frgament"
+        tools:layout="@layout/fragment_news_details_frgament" />
+    <fragment
+        android:id="@+id/subTableFragments"
+        android:name="com.example.computerscincegroupsproject.SubTableFragments"
+        android:label="Subject Grid"
+        tools:layout="@layout/fragment_sub_table_fragments" />
 </navigation>
